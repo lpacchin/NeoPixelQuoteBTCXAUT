@@ -1,0 +1,11 @@
+{
+  "body_hash": "42ffdaafafcc0df1",
+  "llm": {
+    "purpose": "Spegne o pulisce il display impostando tutti i pixel a nero e aggiornando la matrice LED.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Nessun valore di ritorno; aggiorna lo stato del display senza segnalare eccezioni.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:07:00.367325+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "body_hash": "098db5d69dd2e075",
+  "llm": {
+    "purpose": "Recupera i dati ticker correnti di una criptovaluta dall'API Bybit, restituendo prezzo, massimo e minimo delle ultime 24 ore.",
+    "input_shape": "requests: oggetto con metodo get che restituisce response con .json() e .close(); symbol: stringa, atteso 'Bitcoin' (qualsiasi altro valore viene mappato a 'XAUT').",
+    "output_shape": "Dict con chiavi price, high, low (float) in caso di successo; None se requests è None o in caso di eccezione.",
+    "gotcha": "Il mapping dei simboli è binario: solo 'Bitcoin' usa 'BTC', ogni altro valore usa 'XAUT'; utilizza la variabile globale 'gc' senza importarla localmente.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:11:50.887122+00:00"
+}

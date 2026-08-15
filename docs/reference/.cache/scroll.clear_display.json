@@ -1,0 +1,11 @@
+{
+  "body_hash": "bac56bb28e9eb3bf",
+  "llm": {
+    "purpose": "Pulisce il display azzerando i pixel e mostrando l'aggiornamento.",
+    "input_shape": "nessun parametro",
+    "output_shape": "nessun valore di ritorno esplicito (None)",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:10:43.525051+00:00"
+}

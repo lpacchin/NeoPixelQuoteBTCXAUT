@@ -1,0 +1,13 @@
+{
+  "body_hash": "44007e6a78ae230d",
+  "llm": {
+    "purpose": "Stabilisce la connessione WiFi, crea sessione requests e socketpool/SSL context e fornisce feedback visivo sulla matrice.",
+    "input_shape": "Nessun parametro; usa variabili globali WIFI_SSID e WIFI_PASSWORD.",
+    "output_shape": "Restituisce tupla (requests, pool) in caso di successo; (None, None) se la connessione o la creazione della sessione fallisce.",
+    "gotcha": "Richiede hardware WiFi e variabili globali configurate; modifica temporaneamente il display a LED e può sollevare eccezioni gestite.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:13:05.602207+00:00"
+}

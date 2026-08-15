@@ -1,0 +1,11 @@
+{
+  "body_hash": "bac56bb28e9eb3bf",
+  "llm": {
+    "purpose": "Esegue la routine di pulizia del display, registrando l'operazione prima di pulire la matrice di pixel.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Restituisce None; nessuna eccezione esplicita.",
+    "gotcha": "Assume che le variabili globali `pixels` e `BLACK` esistano e che il display sia già inizializzato; un errore su globals non è gestito.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:12:23.036100+00:00"
+}

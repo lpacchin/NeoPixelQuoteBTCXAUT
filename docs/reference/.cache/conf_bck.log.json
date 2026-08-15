@@ -1,0 +1,11 @@
+{
+  "body_hash": "75a54ef0e1349af1",
+  "llm": {
+    "purpose": "Permette di tracciare eventi con timestamp monotonic.",
+    "input_shape": "msg: qualsiasi valore formattabile tramite f-string; nessun vincolo di tipo.",
+    "output_shape": "Nessun ritorno esplicito (None implicito); può sollevare eccezioni se msg non supporta la formattazione.",
+    "gotcha": "Richiede che `time` sia importato nel modulo; `time.monotonic()` non è il tempo di sistema ma un orologio monotonic.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:09:04.559940+00:00"
+}

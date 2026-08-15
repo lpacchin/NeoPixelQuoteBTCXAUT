@@ -1,0 +1,11 @@
+{
+  "body_hash": "c4e2be29aea05608",
+  "llm": {
+    "purpose": "Mostra la scritta \"BYBIT\" su una matrice LED per verificare il layout, mantenendola visibile per 3 secondi.",
+    "input_shape": "nessun parametro",
+    "output_shape": "ritorna None; nessuna eccezione prevista",
+    "gotcha": "dipende da variabili globali (MATRIX_WIDTH, CHARS, BLACK, WHITE, pixels) e assume che la larghezza del testo sia len(text)*6",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:07:55.630827+00:00"
+}

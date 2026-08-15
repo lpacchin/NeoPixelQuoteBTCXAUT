@@ -1,0 +1,13 @@
+{
+  "body_hash": "34e0277a745ec18f",
+  "llm": {
+    "purpose": "Stabilisce la connessione WiFi, crea una sessione requests con socketpool e contesto SSL e aggiorna il display con esito positivo o errore.",
+    "input_shape": "nessun parametro",
+    "output_shape": "Restituisce un oggetto adafruit_requests.Session in caso di successo, oppure None in caso di eccezione durante la connessione o la creazione della sessione.",
+    "gotcha": "Utilizza variabili globali come WIFI_SSID, WIFI_PASSWORD, MATRIX_WIDTH e pixels; non propaga eccezioni ma le cattura e restituisce None, mostrando un pixel rosso sul display.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:11:38.478061+00:00"
+}

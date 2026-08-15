@@ -1,0 +1,11 @@
+{
+  "body_hash": "26804a29507e0476",
+  "llm": {
+    "purpose": "Imposta un singolo pixel LED alle coordinate (x,y) calcolando l'indice lineare e aggiornando l'array globale pixels se l'indice rientra nel range valido.",
+    "input_shape": "x, y: coordinate numeriche intere; color: valore colore accettato dal backend (es. tupla RGB). Nessuna validazione esplicita dei tipi.",
+    "output_shape": "Nessun ritorno (None). Se l'indice calcolato è fuori da [0, NUM_LEDS), non esegue scrittura e termina silenziosamente.",
+    "gotcha": "Se xy_to_index restituisce un indice fuori range la funzione non solleva eccezioni; NUM_LEDS e pixels sono variabili globali, ma nessun side effect è segnalato.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:12:39.520393+00:00"
+}

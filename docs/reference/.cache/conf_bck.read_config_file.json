@@ -1,0 +1,11 @@
+{
+  "body_hash": "b8bab64849a19039",
+  "llm": {
+    "purpose": "Carica e interpreta un file di configurazione key=value, sovrascrivendo i valori predefiniti con quelli letti dal file; gestisce errori di lettura e parsing senza propagarli.",
+    "input_shape": "filename: stringa opzionale, percorso del file di configurazione (default 'scroll.conf').",
+    "output_shape": "Restituisce sempre un dict con chiavi di configurazione e valori tipizzati (str, float, int); in caso di OSError stampa un messaggio e restituisce i valori di default.",
+    "gotcha": "Se una riga contiene '=' ma il parsing del valore fallisce (es. int non valido senza punto decimale), la chiave non viene aggiornata, mantenendo il valore di default eventualmente presente.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:08:45.479089+00:00"
+}

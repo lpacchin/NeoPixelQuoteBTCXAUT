@@ -1,0 +1,11 @@
+{
+  "body_hash": "af7b37a14deaa07e",
+  "llm": {
+    "purpose": "Disegna una stringa di testo sulla matrice LED convertendola in sprite per carattere e impostando i pixel accesi tramite set_pixel.",
+    "input_shape": "text: stringa/iterabile di caratteri; x_offset: intero, ascissa iniziale; color: valore colore accettato da set_pixel, default WHITE.",
+    "output_shape": "None; non solleva eccezioni esplicite.",
+    "gotcha": "Il testo viene convertito in maiuscolo; i caratteri non presenti in CHARS sono saltati; il disegno è ritagliato orizzontalmente ai limiti di MATRIX_WIDTH.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:09:51.392279+00:00"
+}

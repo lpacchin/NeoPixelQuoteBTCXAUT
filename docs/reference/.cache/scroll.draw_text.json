@@ -1,0 +1,11 @@
+{
+  "body_hash": "23333f49c77c5cab",
+  "llm": {
+    "purpose": "Disegna il testo fornito sulla matrice LED, convertendolo in maiuscolo e accendendo i pixel corrispondenti a ogni carattere.",
+    "input_shape": "text: str; x_offset: int, posizione orizzontale di partenza; color: default WHITE.",
+    "output_shape": "Ritorna None; nessuna eccezione esplicita.",
+    "gotcha": "I caratteri non presenti in CHARS vengono ignorati; il testo è forzato a uppercase; ogni carattere occupa 5 pixel di larghezza.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:11:29.545391+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "75f5a8349a5092a0",
+  "llm": {
+    "purpose": "Reimposta il display riempiendo la matrice LED con il colore nero e aggiornando la visualizzazione.",
+    "input_shape": "nessun parametro",
+    "output_shape": "None; nessuna eccezione prevista",
+    "gotcha": "Utilizza oggetti globali `pixels` e `BLACK`; presuppone che la matrice sia già inizializzata.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:09:19.699456+00:00"
+}

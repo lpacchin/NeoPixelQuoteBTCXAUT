@@ -1,0 +1,39 @@
+{
+  "evidence_hash": "6a684432748ef9e3",
+  "llm": {
+    "what": "Sistema per visualizzare su una matrice LED i prezzi correnti e le metriche giornaliere di criptovalute recuperate dall'API Bybit, includendo routine di rendering, gestione della connessione WiFi e logging diagnostico.",
+    "areas": [
+      {
+        "name": "Visualizzazione e rendering pixel",
+        "description": "Funzioni per pulire il display, impostare singoli pixel e disegnare stringhe di testo come pattern sulla matrice LED, incluse eventuali animazioni iniziali.",
+        "modules": [
+          "code",
+          "conf bck",
+          "scroll",
+          "webUI"
+        ]
+      },
+      {
+        "name": "Acquisizione dati crypto e connettività",
+        "description": "Recupero da Bybit di prezzo, massimo e minimo 24h per simboli come BTC e XAUT, con gestione di sessioni HTTP e connessione WiFi nei moduli che la prevedono.",
+        "modules": [
+          "code",
+          "conf bck",
+          "scroll",
+          "webUI"
+        ]
+      },
+      {
+        "name": "Composizione contenuti e diagnostica",
+        "description": "Costruzione di segmenti di testo per lo scorrimento a partire dai dati crypto e registrazione di messaggi con timestamp per diagnostica e logging semplice.",
+        "modules": [
+          "code",
+          "conf bck",
+          "scroll",
+          "webUI"
+        ]
+      }
+    ]
+  },
+  "generated_at": "2026-08-15T15:15:25.529066+00:00"
+}

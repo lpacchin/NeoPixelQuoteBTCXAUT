@@ -1,0 +1,9 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "NeoPixelQuoteBTCXAUT",
+    "version": "98a053e",
+    "description": "Documento OpenAPI generato staticamente da `funcref.openapi` sull'inventario AST degli endpoint (ACTIVE-only). Campi meccanici deterministici; prosa dalla cache LLM di `funcref.generate`."
+  },
+  "paths": {}
+}

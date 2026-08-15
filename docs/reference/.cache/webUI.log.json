@@ -1,0 +1,11 @@
+{
+  "body_hash": "59d81f34eca0919d",
+  "llm": {
+    "purpose": "Registra un messaggio con timestamp monotonico, utile per tracciare eventi in ordine temporale.",
+    "input_shape": "message: qualsiasi oggetto formattabile come stringa; nessun vincolo di tipo.",
+    "output_shape": "None; può sollevare NameError se `time` non è importato nel modulo.",
+    "gotcha": "Richiede `import time` nel contesto; il timestamp è relativo (time.monotonic) e non un orario di calendario.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:12:07.928116+00:00"
+}

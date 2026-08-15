@@ -1,0 +1,11 @@
+{
+  "body_hash": "6d7d14d28fec70bd",
+  "llm": {
+    "purpose": "Imposta il colore di un pixel LED se le coordinate sono valide.",
+    "input_shape": "x e y: interi coordinati; color: valore compatibile con l'elemento di pixels.",
+    "output_shape": "None; nessun valore di ritorno o eccezione prevista.",
+    "gotcha": "Se l'indice calcolato è fuori dall'intervallo 0..NUM_LEDS-1, la funzione non esegue alcuna assegnazione.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:09:42.635931+00:00"
+}

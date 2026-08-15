@@ -1,0 +1,11 @@
+{
+  "body_hash": "26804a29507e0476",
+  "llm": {
+    "purpose": "Imposta un singolo pixel alle coordinate indicate, se valide, per accendere o cambiare il colore del LED corrispondente.",
+    "input_shape": "x, y: interi con coordinate del pixel; color: valore colore (es. intero RGB). Nessuna validazione esplicita sui tipi o sui range in ingresso.",
+    "output_shape": "Ritorna None; se l'indice calcolato è fuori intervallo [0, NUM_LEDS) non produce eccezioni e non applica modifiche.",
+    "gotcha": "Coordinate fuori range vengono ignorate silenziosamente; NUM_LEDS è una costante/globale di contesto, non un parametro della funzione.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:11:04.888631+00:00"
+}

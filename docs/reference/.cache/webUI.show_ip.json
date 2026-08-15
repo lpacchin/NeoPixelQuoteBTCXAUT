@@ -1,0 +1,11 @@
+{
+  "body_hash": "c460b90db2783bae",
+  "llm": {
+    "purpose": "Mostra sul display a matrice l'indirizzo IP Wi-Fi, centrandolo e mantenendolo visibile per 3 secondi.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Ritorna implicitamente None; nessuna eccezione esplicita.",
+    "gotcha": "Usa variabili globali (MATRIX_WIDTH, WHITE, wifi, pixels) e blocca l'esecuzione per 3 secondi con time.sleep.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:12:44.961389+00:00"
+}

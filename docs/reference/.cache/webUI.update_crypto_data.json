@@ -1,0 +1,11 @@
+{
+  "body_hash": "eefefa94f7013035",
+  "llm": {
+    "purpose": "Aggiorna il dizionario globale dei dati criptovalute per tutti i simboli configurati e rigenera i segmenti di scorrimento dell'interfaccia.",
+    "input_shape": "Nessun parametro; legge le variabili globali 'crypto_data' (dizionario) e 'config' (con chiave 'symbols').",
+    "output_shape": "Non restituisce alcun valore; modifica il dizionario globale 'crypto_data' e chiama 'generate_scroll_segments()' senza gestire eccezioni.",
+    "gotcha": "Assume che 'config[\"symbols\"]' sia presente e iterabile e che 'crypto_data' sia un dizionario già inizializzato; la chiamata a 'get_crypto_data' può fallire senza che la funzione lo gestisca.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:13:50.292345+00:00"
+}

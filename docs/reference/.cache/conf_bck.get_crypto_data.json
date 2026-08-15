@@ -1,0 +1,11 @@
+{
+  "body_hash": "e6df8350f1481dda",
+  "llm": {
+    "purpose": "Recupera da Bybit i dati di prezzo corrente, massimo e minimo 24h per un simbolo spot e li restituisce normalizzati in float.",
+    "input_shape": "sess: oggetto con metodo get(url, headers) che espone .json()/.close(); symbol: stringa simbolo spot (es. \"BTCUSDT\").",
+    "output_shape": "In successo: dict {price, high, low} float; None se sess è None, ret_code != 0, lista vuota o eccezione.",
+    "gotcha": "Assume che il primo elemento di result.list contenga lastPrice, highPrice24h, lowPrice24h; le eccezioni sono tutte catturate e loggate, quindi la funzione non propaga errori.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:10:11.427585+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "3a6f5d250f13ee2a",
+  "llm": {
+    "purpose": "Converte coordinate 2D in indice lineare pixel, gestendo orientamento verticale/orizzontale, serpentina e righe invertite.",
+    "input_shape": "x, y: interi; coordinate da validare rispetto a MATRIX_WIDTH e MATRIX_HEIGHT.",
+    "output_shape": "Intero: indice pixel calcolato, oppure -1 se le coordinate sono fuori matrice.",
+    "gotcha": "Il calcolo dipende dalle costanti globali MATRIX_WIDTH, MATRIX_HEIGHT, VERTICAL, SERPENTINE e REVERSE_ROWS; non viene verificato il tipo di x e y.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:07:10.983795+00:00"
+}

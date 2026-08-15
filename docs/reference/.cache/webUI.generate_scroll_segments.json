@@ -1,0 +1,11 @@
+{
+  "body_hash": "6b02110c80c6cce0",
+  "llm": {
+    "purpose": "Costruisce i segmenti visuali per lo scorrimento combinando simbolo, prezzo, high e low dai dati crypto configurati.",
+    "input_shape": "Nessun parametro; dipende dalle variabili globali config, crypto_data e dalle costanti WHITE, CYAN, PURPLE.",
+    "output_shape": "None (nessun return esplicito); può sollevare KeyError o TypeError se config/crypto_data non contengono i campi attesi o i valori non sono convertibili a int.",
+    "gotcha": "Presuppone che ogni simbolo in config['symbols'] sia presente in crypto_data e che i campi price, high e low siano numerici; la lunghezza di ogni segmento deve riflettere il testo effettivo.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:13:38.152457+00:00"
+}

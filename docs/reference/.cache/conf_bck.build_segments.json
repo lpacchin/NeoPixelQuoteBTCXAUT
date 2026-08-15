@@ -1,0 +1,11 @@
+{
+  "body_hash": "03ffe5b32884f10f",
+  "llm": {
+    "purpose": "Costruisce una lista di segmenti di testo formattati per ciascuna etichetta in LABEL1 e LABEL2, estraendo prezzo, massimo e minimo dalla struttura crypto.",
+    "input_shape": "Nessun parametro; utilizza variabili globali LABEL1, LABEL2, crypto e costanti colore.",
+    "output_shape": "Lista di dizionari con chiavi 'text', 'col', 'len' per ciascun segmento; nessuna eccezione gestita esplicitamente.",
+    "gotcha": "Assume che crypto[lbl] contenga le chiavi 'col', 'price', 'trend', 'high', 'low' e che i valori numerici siano convertibili a int; dipende da stato globale non passato come argomento.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:10:26.296073+00:00"
+}

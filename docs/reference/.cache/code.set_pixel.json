@@ -1,0 +1,11 @@
+{
+  "body_hash": "a2a647e48fc79d87",
+  "llm": {
+    "purpose": "Imposta il colore di un pixel alle coordinate specificate se l'indice risultante è valido.",
+    "input_shape": "x, y: coordinate (tipicamente interi) per il calcolo dell'indice; color: valore colore.",
+    "output_shape": "Nessun valore di ritorno; se l'indice non è nell'intervallo [0, NUM_LEDS) non fa nulla.",
+    "gotcha": "Dipende dalla funzione xy_to_index per la validazione; le coordinate invalide vengono silenziosamente ignorate; usa variabili globali pixels e NUM_LEDS.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:07:43.044162+00:00"
+}

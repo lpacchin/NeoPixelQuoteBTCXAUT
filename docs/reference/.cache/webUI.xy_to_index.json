@@ -1,0 +1,11 @@
+{
+  "body_hash": "bb290c4c8aaf29ce",
+  "llm": {
+    "purpose": "Converte coordinate logiche x,y nell'indice lineare del pixel nella strip LED, gestendo layout verticali/orizzontali e serpentina.",
+    "input_shape": "Due interi x e y; valori fuori dagli intervalli [0, MATRIX_WIDTH-1] e [0, MATRIX_HEIGHT-1] restituiscono -1.",
+    "output_shape": "Intero: indice del pixel >=0 oppure -1 se le coordinate sono fuori matrice; nessuna eccezione.",
+    "gotcha": "Il risultato dipende dai flag globali VERTICAL, SERPENTINE e REVERSE_ROWS; i limiti sono controllati prima dell'accesso agli indici.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:12:29.076031+00:00"
+}

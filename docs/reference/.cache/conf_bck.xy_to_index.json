@@ -1,0 +1,11 @@
+{
+  "body_hash": "fe6c418220b7b56b",
+  "llm": {
+    "purpose": "Converte coordinate (x,y) in indice lineare di matrice LED, applicando layout verticale/orizzontale, serpentina e righe invertite.",
+    "input_shape": "x e y interi attesi; coordinate entro x in [0, MATRIX_WIDTH-1] e y in [0, MATRIX_HEIGHT-1].",
+    "output_shape": "Intero indice base 0 se coordinate valide, -1 se fuori matrice; nessuna eccezione.",
+    "gotcha": "Il verso di scansione dipende dalle costanti globali VERTICAL, SERPENTINE e REVERSE_ROWS; con REVERSE_ROWS=True l'inversione avviene su colonne/righe pari invece che dispari.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:09:35.516745+00:00"
+}

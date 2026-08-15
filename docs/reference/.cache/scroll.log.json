@@ -1,0 +1,11 @@
+{
+  "body_hash": "59d81f34eca0919d",
+  "llm": {
+    "purpose": "Registra un messaggio su stdout anteponendo un timestamp basato sul tempo monotonic.",
+    "input_shape": "message: stringa o valore interpolabile in f-string (deve supportare __str__ o __format__).",
+    "output_shape": "Ritorna implicitamente None; non solleva eccezioni se message è formattabile.",
+    "gotcha": "Richiede che `time` sia importato nel modulo; il timestamp non è un'ora reale ma secondi da un punto arbitrario (monotonic).",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:10:34.792166+00:00"
+}

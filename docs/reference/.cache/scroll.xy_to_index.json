@@ -1,0 +1,11 @@
+{
+  "body_hash": "bb290c4c8aaf29ce",
+  "llm": {
+    "purpose": "Converte coordinate 2D (x,y) nell'indice lineare del pixel nella strip LED, rispettando orientamento verticale/orizzontale, serpentina e righe invertite.",
+    "input_shape": "x e y: interi 0-based; se fuori dai limiti di MATRIX_WIDTH/MATRIX_HEIGHT la funzione restituisce -1.",
+    "output_shape": "Intero non negativo: indice del pixel nella strip; -1 per coordinate fuori matrice; nessuna eccezione sollevata.",
+    "gotcha": "Dipende da costanti globali MATRIX_WIDTH, MATRIX_HEIGHT, VERTICAL, SERPENTINE e REVERSE_ROWS; l'ordine dell'indice cambia con VERTICAL e l'inversione con SERPENTINE/REVERSE_ROWS.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:10:50.471962+00:00"
+}

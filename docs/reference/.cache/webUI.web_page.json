@@ -1,0 +1,11 @@
+{
+  "body_hash": "33a71f30e438a035",
+  "llm": {
+    "purpose": "Genera l'HTML della pagina di controllo LED Matrix con form per aggiornare simboli e impostazioni.",
+    "input_shape": "nessun parametro; usa la variabile globale `config`.",
+    "output_shape": "Ritorna una stringa HTML (str); può sollevare eccezioni se `config` o le sue chiavi non sono disponibili.",
+    "gotcha": "La funzione dipende da una variabile globale `config` con chiavi `symbols`, `brightness`, `scroll_speed`, `scroll_delay` e non esegue escaping dei valori interpolati.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:13:24.175514+00:00"
+}

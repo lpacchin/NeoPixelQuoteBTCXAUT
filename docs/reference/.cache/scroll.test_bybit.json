@@ -1,0 +1,11 @@
+{
+  "body_hash": "48c562cf5fe27024",
+  "llm": {
+    "purpose": "Visualizza la scritta \"BYBIT\" centrata sul display a matrice per verificare il layout, poi pulisce lo schermo dopo 3 secondi.",
+    "input_shape": "nessun parametro",
+    "output_shape": "ritorna None; nessuno stato/eccezione dichiarato",
+    "gotcha": "dipende da costanti/globali MATRIX_WIDTH, CHARS, WHITE e dall'oggetto pixels; i caratteri non presenti in CHARS vengono saltati senza errore",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:11:18.174451+00:00"
+}

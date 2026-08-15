@@ -1,0 +1,13 @@
+{
+  "body_hash": "24e27e376645901f",
+  "llm": {
+    "purpose": "Recupera da Bybit prezzo, massimo e minimo 24h di una criptovaluta (BTC o XAUT) e li restituisce in un dizionario, oppure None in caso di errore.",
+    "input_shape": "requests: oggetto con metodo get (tipicamente modulo/sessione requests); symbol: stringa, solo 'BTC$' è mappato a BTC, ogni altro valore è mappato a XAUT.",
+    "output_shape": "Dizionario {'price','high','low'} con valori float, oppure None se requests è None o la chiamata/parsing fallisce.",
+    "gotcha": "Il parametro symbol non è passato direttamente all'API: qualunque valore diverso da 'BTC$' interroga il simbolo XAUT. La funzione dipende dalla struttura esatta della risposta Bybit e richiede che 'gc' e 'log' siano disponibili nel namespace.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:08:26.589841+00:00"
+}

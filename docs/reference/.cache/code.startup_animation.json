@@ -1,0 +1,11 @@
+{
+  "body_hash": "fc66a31931535356",
+  "llm": {
+    "purpose": "Esegue una sequenza di animazioni di avvio sulla matrice LED, alternando riempimento, lampeggio, dissolvenza e spegnimento graduale.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Nessun valore di ritorno (None); nessuna eccezione dichiarata.",
+    "gotcha": "Richiede variabili globali MATRIX_WIDTH, MATRIX_HEIGHT, BLACK, pixels e costanti colore; usa attese bloccanti con time.sleep.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:07:51.006753+00:00"
+}

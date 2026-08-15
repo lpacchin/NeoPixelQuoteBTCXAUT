@@ -1,0 +1,11 @@
+{
+  "body_hash": "fffcc660036361f2",
+  "llm": {
+    "purpose": "Disegna una stringa di testo come pattern di pixel a partire da un offset orizzontale, usando mappe di carattere predefinite.",
+    "input_shape": "text: stringa iterabile; x_offset: int o float convertito a int; color: valore colore accettato da set_pixel (default WHITE).",
+    "output_shape": "None; nessun valore di ritorno esplicito. Nessuna eccezione sollevata esplicitamente.",
+    "gotcha": "Caratteri non presenti in CHARS ignorati silenziosamente; x_offset troncato a intero; pixel fuori dall'intervallo 0 <= x_pos+x < MATRIX_WIDTH e fuori dalle righe y 0..7 vengono scartati.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:08:14.952992+00:00"
+}

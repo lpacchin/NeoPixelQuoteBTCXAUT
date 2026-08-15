@@ -1,0 +1,13 @@
+{
+  "body_hash": "1264d22dbf6c6397",
+  "llm": {
+    "purpose": "Stabilisce la connessione Wi-Fi e restituisce una sessione HTTP pronta all'uso, gestendo anche feedback visivi e log.",
+    "input_shape": "Nessun parametro; usa le variabili globali WIFI_SSID e WIFI_PASSWORD.",
+    "output_shape": "Restituisce un oggetto adafruit_requests.Session in caso di successo, oppure None se la connessione o la creazione della sessione fallisce; non rilancia eccezioni perché vengono catturate.",
+    "gotcha": "Richiede hardware Wi-Fi configurato e credenziali globali valide; in caso di errore il chiamante deve gestire il valore None.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:09:58.884177+00:00"
+}

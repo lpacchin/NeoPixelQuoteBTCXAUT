@@ -1,0 +1,13 @@
+{
+  "body_hash": "ea45ab3cce56ef62",
+  "llm": {
+    "purpose": "Recupera da Bybit i dati correnti di prezzo, massimo e minimo giornaliero per un simbolo crypto, adattando i nomi visualizzati ai simboli API.",
+    "input_shape": "requests: oggetto con metodo get() HTTP; symbol: stringa non nulla, confrontata case-insensitive con BITCOIN/BTC, altrimenti mappata a XAUT.",
+    "output_shape": "Dict con chiavi price, high, low (float) oppure None in caso di richiesta mancante o errore API/parsing.",
+    "gotcha": "Il simbolo non BITCOIN/BTC viene forzato a XAUT; utilizza gc e log come nomi globali; eventuali chiavi mancanti nella risposta API generano eccezione catturata e restituiscono None.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-08-15T15:13:12.811843+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "23333f49c77c5cab",
+  "llm": {
+    "purpose": "Disegna una stringa di testo sulla matrice LED convertendola in maiuscolo e accendendo i pixel dei caratteri noti a partire da un offset orizzontale.",
+    "input_shape": "text: stringa/iterabile di caratteri, convertita in maiuscolo; x_offset: int, coordinata x iniziale; color: valore colore opzionale, default WHITE, passato a set_pixel.",
+    "output_shape": "Nessun valore di ritorno (None). Non solleva eccezioni documentate: i caratteri non presenti in CHARS vengono ignorati.",
+    "gotcha": "Il testo viene forzato in maiuscolo e i caratteri sconosciuti sono saltati silenziosamente. Il clipping controlla solo x_pos+x < MATRIX_WIDTH: x_offset negativo può generare coordinate negative passate a set_pixel.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:13:00.519537+00:00"
+}

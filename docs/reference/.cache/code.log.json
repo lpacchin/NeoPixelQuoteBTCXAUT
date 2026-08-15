@@ -1,0 +1,11 @@
+{
+  "body_hash": "d3a588a18262f228",
+  "llm": {
+    "purpose": "Registra un messaggio con timestamp basato su tempo monotonic per diagnostica e logging semplice.",
+    "input_shape": "message: qualsiasi oggetto, convertito in stringa tramite f-string; nessun vincolo di tipo o lunghezza.",
+    "output_shape": "Ritorna None; stampa su stdout; nessuna eccezione dichiarata.",
+    "gotcha": "Il timestamp usa time.monotonic(), quindi non è un orario di calendario ma un tempo relativo arbitrario; l'output va su stdout e non viene intercettato o salvato.",
+    "side_effects": []
+  },
+  "generated_at": "2026-08-15T15:06:55.384407+00:00"
+}
